@@ -334,3 +334,29 @@ header .img-container{
 .musictv .ct2 h3{
     color: var(--color-gris300);
 }
+
+/******* imac **********/
+
+.imac{
+    background: var(--color-blanco);
+    padding: 50px 0; 
+}
+
+.imac img{
+    width: 50%;
+}
+
+.imac h1{
+    font-size: 56px;
+}
+
+.imac h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.imac h3{
+    font-size: 18px;
+    color: var(--color-gris300);
+    letter-spacing: 0.5px;
+}
