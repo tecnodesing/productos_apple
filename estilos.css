@@ -93,7 +93,16 @@ section{
     height: 100vh;
 }
 
-/*? *********** Menú de Navegación ************ */
+/*! ********** Estilos de GRID ********** */
+
+.grid{
+    display: grid0;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    height: 100%;
+}
+
+/*? ********** Menú de Navegación ********** */
 
 nav{
     position: fixed;
