@@ -93,13 +93,44 @@ section{
     height: 100vh;
 }
 
+.text-container{
+    flex-direction: column;
+}
+
+
 /*! ********** Estilos de GRID ********** */
 
 .grid{
-    display: grid0;
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;
     height: 100%;
+}
+
+.grid div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.span5{
+    grid-column: span 5;
+}
+
+.span6{
+    grid-column: span 6;
+}
+
+.span7{
+    grid-column: span 7;
+}
+
+.span9{
+    grid-column: span 9;
+}
+
+.span12{
+    grid-column: span 12;
 }
 
 /*? ********** Menú de Navegación ********** */
@@ -140,4 +171,26 @@ nav .enlaces a{
 
 nav .enlaces a:hover{
     opacity: 1;
+}
+
+/********* Header **********/
+
+header{
+    width: 100%;
+    height: calc(100vh - 44px);
+    margin: 44px 0 0 0;
+    background: #f2f2f2;
+}
+
+header img{
+    width: 80%;
+}
+
+header .text-container{
+    padding: 30px 0 0 0;
+    justify-content: flex-end !important;
+}
+
+header .img-container{
+    align-items: flex-end !important;
 }
