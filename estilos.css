@@ -97,6 +97,16 @@ section{
     flex-direction: column;
 }
 
+.enlace-info{
+    font-size: 21px;
+    margin-top: 30px;
+    color: var(--color-primario-oscuro);
+}
+
+.enlace-info:hover{
+    text-decoration: underline;
+}
+
 
 /*! ********** Estilos de GRID ********** */
 
@@ -239,4 +249,39 @@ header .img-container{
     color: var(--color-blanco);
     font-size: 28px;
     font-weight: 400;
+}
+
+/********** Productos ************/
+
+/*? ***** iPad ***** */
+
+.ipad{
+    background: var(--color-blanco);
+}
+
+.ipad img{
+    height: 85%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.ipad .text-container{
+    grid-column: 2 / 4;
+    align-items: flex-start;
+}
+
+
+/*? ***** Watch ***** */
+.watch{
+    padding: 30px 50px 0 50px;
+}
+
+.watch .text-container img{
+    width: 100px;
+}
+
+/*? ***** airpods ***** */
+
+.airpods{
+    height: auto;
 }
